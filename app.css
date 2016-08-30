@@ -1,4 +1,69 @@
-.billing_tab{
-border:1px solid red;
-width:100%; padding:5px;
-}
+/* Index Css starts Here*/
+body{margin:0; padding:0; font-family:Lato,Verdana,Geneva,sans-serif; font-size:13px; color:#000; background:#e4e4e4;}
+ul,li, p, section{list-style:none; padding:0; margin:0;}
+header,nav,footer,section,article,figcaption{display:block;}
+.mainContainer{ width:100%; position:relative}
+header{border:1px solid green; height:90px; background:#444;}
+.logo{background:url("I:/project/dairyland/assets/images/logo.png") no-repeat; width: 141px; height: 79px; float:left;}
+.brandName{font-size:26px; color:#fff;float:left; width:250px; padding:20px 0 10px 20px}
+.top_quicklinks{float: right;
+    width: 40%;
+    padding:40px;
+    text-align: right; }
+.top_quicklinks li{display:inline; width:20%; color:#fff; padding:0 15px; border-right:1px solid #fff;}
+.top_quicklinks li:last-child{border-right:none;}
+.content{width:100%; float:left;}
+.leftNavigation{width:15%; float:left; border-right: 2px solid #ccc; box-shadow: 1px 2px 5px#ccc; height:100%; padding: 2px;}
+.navbar li{ margin-bottom:15px; padding:8px 5px 8px 10px;}
+.navbar li:hover, .navbar #home{font-weight: bold; border-left:4px solid #000;}
+.navIcon{width:16px; height:16px; vertical-align:top;}
+.mainContent{ float: right;
+    height: 300px;
+    padding: 10px;
+    width: 83%;}
+.mainContent section{border:1px solid #888; background:#fff; min-height:40px; margin:10px; padding:10px;}
+.mainContent .paymentWrap{border-top:3px solid #000;}
+.right{text-align:right}
+p{padding:2px 3px}
+.subTitle{font-size:15px; font-weight:bold; padding:5px 0 2px 10px;}
+.ptContainer{width:100%; }
+.ptContainer td{width:29%;}
+.paymentWrap li {border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    padding: 10px 0;}
+.payNow{background:#888; width:100px; color:#fff; padding:8px; text-decoration:none; text-transform:uppercase; font-weight:bold;}
+
+.claimSection{width:100%; margin:10px; text-align: center;}
+.claims, .iCard{ background: #fff none repeat scroll 0 0;
+    float: left;
+    margin-bottom: 10px;
+    min-height: 93px;
+    padding: 13px 10px;
+    width: 44%;}
+.claims{padding-top: 44px;  border-top: 3px solid #000;}
+.iCard{ margin-left:72px;  border-top: 3px solid #000;}
+.claimTitle{margin:10px;}
+.subTitle1{ float: left; width:45.5%;   }
+.subTitle2{margin: 0 0 0 89px;}
+.claims li{border-right: 1px solid #e4e4e4;
+    float: left;
+    min-width: 100px;
+    padding: 20px;
+    text-align: center;}
+.claims li:last-child{border-right:none;}
+.iCard li{background: #e4e4e4 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    display: inline;
+    float: left;
+    margin: 9px;
+    padding: 20px;
+    text-align: center;
+    width: 182px;}
+.viewAll{float: left; width:100%;}
+.helpsec{padding-top: 0;}
+.iCard .feeds{text-align: left;
+    width: 88%; background:none; padding:0; margin: 0;}
+.newFeed, .btnCls{background: #e4e4e4 ; padding: 2px; line-height: 22px; text-decoration: none; margin-top: 2px;}
+.iCard .contactTxt{text-align: left;
+        width: 22%;}
+/* Index Css Ends Here*/
